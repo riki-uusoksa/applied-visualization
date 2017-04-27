@@ -7,7 +7,8 @@ South Bound (42.097174, -83.741057)
 Severe Weather Data From https://www1.ncdc.noaa.gov/pub/data/swdi/stormevents/csvfiles/
 StormEvents_details-ftp_v1.0_d1990_c20160223.csv to StormEvents_details-ftp_v1.0_d2016_c20170419.csv
 subsetted to only contain events within a radius of ~20km and from University of Michigan
-(42.2780475, -83.7384128)
+I created the subset from the specified files (since their combined size is ~1Gb) and the script used can be found at
+#https://github.com/riki-uusoksa/applied-visualization/blob/master/storm_events/subset_severe_weather.py
 
 Temperature Data From https://www.ncei.noaa.gov/orders/cdo/948904.csv
 subsetted to only contain data from Ann Arbor, MI, USA
